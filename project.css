@@ -1,0 +1,489 @@
+body {
+    width: 100vmax;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav div {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    top: 0;
+    /* z-index: 1000; */
+    justify-content: space-between;
+    transition: top 0.5s;
+}
+
+header nav div .list1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+header nav div .list2 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 100%;
+    margin-left: 50%;
+    text-transform: capitalize;
+}
+
+header nav div ul li select {
+    font-size: 16px;
+    border: 2px;
+    margin: 2px;
+}
+
+.section1 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(238, 243, 248);
+    position: fixed;
+    display: grid;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    backdrop-filter: blur(20px);
+    margin-top: 40px;
+}
+.section1 .listrace {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.section1 .listrace .race {
+    font-size: xx-large;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+.section1 .listrace .race span {
+    text-transform: capitalize;
+    color: rgb(255, 31, 31);
+}
+
+.section1 .listrace .section1list {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 40%;
+    margin-right: 5%;
+    text-transform: uppercase;
+}
+
+.section2 {
+    background-image: url(./images/welcome-hero/banner.jpg);
+    background-position: center;
+    background-size: 100vmax;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+.section2 .maindiv .bestplace h2 {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+
+.section2 .maindiv .what {
+    position: relative;
+    display: flex;
+}
+
+.section3 {
+    text-transform: capitalize;
+}
+
+.section3 .section3-div {
+    top: 65%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    /* justify-content: space-between; */
+    /* top: 70%; */
+}
+
+.section3 .section3-div .sec3 {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+.resturant-hover:hover .resturant {
+    background-color: red;
+    color: white;
+    box-shadow: 0px 5px 5px 0px gray;
+}
+.resturant-hover:hover .resturant a {
+    color: white;
+}
+
+.destination-hover:hover .destination {
+    background-color: red;
+    color: white;
+    box-shadow: 0px 5px 5px 0px gray;
+}
+.destination-hover:hover .destination a {
+    color: white;
+}
+
+.hotels-hover:hover .hotels {
+    background-color: red;
+    color: white;
+    box-shadow: 0px 5px 5px 0px gray;
+}
+.hotels-hover:hover .hotels a {
+    color: white;
+}
+
+.healthcare-hover:hover .healthcare {
+    background-color: red;
+    color: white;
+    box-shadow: 0px 5px 5px 0px gray;
+}
+.healthcare-hover:hover .healthcare a {
+    color: white;
+}
+
+.automotion-hover:hover .automotion {
+    background-color: red;
+    color: white;
+    box-shadow: 0px 5px 5px 0px gray;
+}
+.automotion-hover:hover .automotion a {
+    color: white;
+}
+
+
+
+.section4 {
+    margin-top: 35%;
+    margin-bottom: 10%;
+}
+
+.section4 .sec4header {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.section4 .sec4header h2 {
+    text-transform: uppercase;
+}
+
+.section4 .section4div .group {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.section4 .section4div .group .cfe {
+    box-shadow: 1px 1px 2px 2px gray;
+    width: 100%;
+    height: auto;
+    margin-right: 10%;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+/* :hover .section4 .section4div .group .cfe {
+    background-color: brown;
+} */
+.section4 .section4div .group .cfe button {
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 10px;
+}
+.section4 .section4div .group .choose {
+    margin-left: 5%;
+}
+
+.choose-hover:hover .choose {
+    background-color: red;
+    color: white;
+}
+.choose-hover:hover button {
+    background-color: white;
+    color: red;
+    border: none;
+}
+.choose-hover:hover .choose a {
+    color: white;
+}
+
+.find-hover:hover .find {
+    background-color: red;
+    color: white;
+}
+.find-hover:hover button {
+    background-color: white;
+    color: red;
+    border: none;
+}
+.find-hover:hover .find a {
+    color: white;
+}
+
+.explore-hover:hover .explore {
+    background-color: red;
+    color: white;
+}
+.explore-hover:hover button {
+    background-color: white;
+    color: red;
+    border: none;
+}
+.explore-hover:hover .explore a {
+    color: white;
+}
+
+
+.section5 {
+    background-color: rgb(232, 232, 232);
+    width: 100%;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+}
+
+.section5 .section-header h2 {
+    text-transform: uppercase;
+}
+
+.section5 .section-header {
+    text-align: center;
+    margin-bottom: 5rem;
+    padding-top: 10%;
+}
+
+.section5 .row {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-bottom: 10%;
+}
+.section5 .row .col-md-4 {
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.single-explore-img .single-explore-img-info {
+    width: 30%;
+    position: absolute;
+    display: flex;
+    gap: 35%;
+}
+.single-explore-img .explore-img-info1 {
+    top: 15%;
+    opacity: 0;
+}
+.col-md-4:hover .explore-img-info1 {
+    opacity: 1;
+}
+
+.single-explore-img .explore-img-info2 {
+    top: 15%;
+    opacity: 0;
+}
+.col-md-4:hover .explore-img-info2 {
+    opacity: 1;
+}
+
+.single-explore-img .explore-img-info3 {
+    top: 15%;
+    opacity: 0;
+}
+.col-md-4:hover .explore-img-info3 {
+    opacity: 1;
+}
+
+.single-explore-img .explore-img-info4 {
+    top: 62%;
+    opacity: 0;
+}
+.col-md-4:hover .explore-img-info4 {
+    opacity: 1;
+}
+
+.single-explore-img .explore-img-info5 {
+    top: 62%;
+    opacity: 0;
+}
+.col-md-4:hover .explore-img-info5 {
+    opacity: 1;
+}
+
+.single-explore-img .explore-img-info6 {
+    top: 62%;
+    opacity: 0;
+}
+.col-md-4:hover .explore-img-info6 {
+    opacity: 1;
+}
+
+.single-explore-img .single-explore-img-info button {
+    height: 25px;
+    background-color: rgb(242, 73, 73);
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.single-explore-img .single-explore-img-info .single-explore-image-icon-box ul {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    right: 20%;
+}
+.single-explore-img .single-explore-img-info .single-explore-image-icon-box ul li {
+    /* width: 20px; */
+    /* height: 15px; */
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.section5 .explore-content .row .col-sm-6 .single-explore-item .single-explore-img img {
+    width: 100%;
+    /* width: 300px; */
+}
+
+.section5 .explore-content .row h2 {
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.section5 .explore-content .row .col-sm-6 .bg-theme-1 .explore-rating-price .explore-rating {
+    background-color: rgb(77, 142, 206);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.section5 .explore-content .row .col-sm-6 .bg-theme-2 .explore-rating-price .explore-rating {
+    background-color: rgb(45, 145, 63);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.section5 .explore-content .row .col-sm-6 .bg-theme-3 .explore-rating-price .explore-rating {
+    background-color: rgb(196, 196, 15);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.section5 .explore-content .row .col-sm-6 .bg-theme-4 .explore-rating-price .explore-rating {
+    background-color: rgb(159, 43, 182);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.section5 .explore-content .row .col-sm-6 .bg-theme-2 .explore-rating-price .explore-rating {
+    background-color: rgb(45, 145, 63);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.section5 .explore-content .row .col-sm-6 .bg-theme-5 .explore-rating-price .explore-rating {
+    background-color: rgb(240, 124, 88);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.section5 .explore-content .row .col-sm-6 .single-explore-txt .explore-rating-price .explore-price{
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.section5 .explore-content .row .col-sm-6 .single-explore-txt{
+    padding-left: 10px;
+}
+
+.section5 .explore-content .row .col-sm-6 .single-explore-txt .explore-rating-price .explore-price-box {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: gray;
+    padding-left: 5px;
+}
+
+.section5 .explore-content .row .single-explore-txt {
+    /* width: 100%; */
+}
+
+.section5 .explore-content .row .single-explore-txt .explore-person .row {
+    /* width: 100%; */
+    display: flex;
+    position: relative;
+    padding-right: 30px;
+}
+
+.section5 .explore-person .col-sm-10 {
+    padding-right: 20px;
+    opacity: 0.7;
+}
+
+.section6 {
+    width: 100%;
+    margin-bottom: 10%;
+}
+.section6 .section-header {
+    text-align: center;
+}
+.section6 .section-header h2 {
+    text-transform: uppercase;
+}
+.section6 .testimonial-carousel {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+.section6 .testimonial-carousel .single-testimonial-box {
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.section6 .testimonial-carousel .single-testimonial-box .testimonial-person-star {
+    color: rgb(227, 204, 0);
+}
+
+.section7 {
+    width: 100%;
+    background-image: url(./images/counter/counter-banner.jpg);
+    background-position: unset;
+}
