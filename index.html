@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://kit.fontawesome.com/24cd38899c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./project.css">
-	<link rel="stylesheet" href="assets/css/flaticon.css">
-	<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+	<link rel="stylesheet" href="./flaticon.css">
+	<link rel="shortcut icon" type="image/icon" href="./images/logo/favicon.png"/>
+	<script src="https://kit.fontawesome.com/24cd38899c.js" crossorigin="anonymous"></script>
     <title>ListRace Project</title>
 </head>
 <body>
@@ -62,29 +63,32 @@
 					<h2>best place to find and explore <br> that all you need </h2>
 					<p>Find Best Place, Restaurant, Hotel, Real State and many more think in just One click</p>
 				</div>
-
-				<div class="what">
-					<h3>what?</h3>
-					<div class="formandinput">
-						<form action="index.html">
-						<input type="text" placeholder="Ex: palce, resturent, food, automobile" />
-						</form>
+				<div class="what-location-search">
+					<div class="what-box">
+						<div class="what">
+							<span>What?</span>
+							<div class="formandinput">
+								<form action="index.html">
+									<input type="text" placeholder="Ex: palce, resturent, food, automobile" />
+								</form>
+							</div>
+							<span><i class="fa-solid fa-list-ul"></i></i></span>
+						</div>
 					</div>
-					<p><i class="flaticon-list-with-dots"></i></p>
-				</div>
-
-				<div class="location">
-					<h3>location</h3>
-					<form action="index.html">
-					<input type="text" placeholder="Ex: london, newyork, rome" />
-					</form>
-					<div class="">
-					<i class=""></i>
+					<div class="location-box">
+						<div class="location">
+							<span>Location</span>
+							<form action="index.html">
+								<input type="text" placeholder="Ex: london, New-York, rome" />
+							</form>
+							<div class="">
+								<i class="fa-solid fa-location-crosshairs"></i>
+							</div>
+						</div>
 					</div>
-				</div>
-				
-				<div class="search">
-					<button class="welcome-hero-btn" onclick="window.location.href='#'">search<i data-feather="search"></i></button>
+					<div class="search">
+						<button class="welcome-hero-btn" onclick="window.location.href='#'">search <i class="fa-solid fa-magnifying-glass"></i></button>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -93,7 +97,7 @@
 			<div class="section3-div">
 				<div class="resturant-hover">
 					<div class="resturant sec3">
-						<i class=""></i>
+						<i class="fa-solid fa-kitchen-set"></i>
 						<h2><a href="#">resturant</a></h2>
 						<p>150 listings</p>
 					</div>
@@ -101,7 +105,7 @@
 				
 				<div class="destination-hover">
 					<div class="destination sec3">
-						<i class="flaticon-travel"></i>
+						<i class="fa-solid fa-map-location-dot"></i>
 						<h2><a href="#">destination</a></h2>
 						<p>214 listings</p>
 					</div>	
@@ -109,7 +113,7 @@
 				
 				<div class="hotels-hover">
 					<div class="hotels sec3">
-						<i class=""></i>
+						<i class="fa-solid fa-hotel"></i>
 						<h2><a href="#">hotels</a></h2>
 						<p>185 listings</p>
 					</div>	
@@ -117,7 +121,7 @@
 				
 				<div class="healthcare-hover">
 					<div class="healthcare sec3">
-						<i class="flaticon-pills"></i>
+						<i class="fa-solid fa-house-medical"></i>
 						<h2><a href="#">healthcare</a></h2>
 						<p>200 listings</p>
 					</div>
@@ -125,7 +129,7 @@
 				
 				<div class="automotion-hover">
 					<div class="automotion sec3">
-						<i class="flaticon-transport"></i>
+						<i class="fa-solid fa-car-side"></i>
 						<h2><a href="#">automotion</a></h2>
 						<p>120 listings</p>
 					</div>
@@ -145,7 +149,7 @@
 				<div class="group">
 					<div class="choose-hover">
 						<div class="choose cfe">
-							<i class="flaticon-lightbulb-idea"></i>
+							<i class="fa-solid fa-lightbulb"></i>
 							<h2><a href="#">choose <span> what to</span> do</a></h2>
 							<p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.</p>
 							<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">read more</button>
@@ -153,7 +157,7 @@
 					</div>
 					<div class="find-hover">
 						<div class="find cfe">
-							<i class="flaticon-networking"></i>
+							<i class="fa-solid fa-circle-nodes"></i>
 							<h2><a href="#">find <span> what you want</span></a></h2>
 							<p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.</p>
 							<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">read more</button>
@@ -161,7 +165,7 @@
 					</div>
 					<div class="explore-hover">
 						<div class="explore cfe">
-							<i class="flaticon-location-on-road"></i>
+							<i class="fa-solid fa-earth-africa"></i>
 							<h2><a href="#">explore <span> amazing</span> place</a></h2>
 							<p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua.</p>
 							<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">read more</button>
@@ -227,13 +231,13 @@
 									<div class="explore-open-close-part">
 										<div class="class-row-2">
 											<div class="col-sm-5">
-												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+												<button class="close-btn" onclick="window.location.href='#'">Close Now</button>
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
-													<a href="#"><i data-feather="map-pin"></i></a>
-													<a href="#"><i data-feather="upload"></i></a>
-													<a href="#"><i data-feather="heart"></i></a>
+													<a href="#"><i class="fa-solid fa-location-dot"></i></a>
+													<a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+													<a href="#"><i class="fa-regular fa-heart"></i></i></a>
 												</div>
 											</div>
 										</div>
@@ -293,13 +297,13 @@
 									<div class="explore-open-close-part">
 										<div class="class-row-2">
 											<div class="col-sm-5">
-												<button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+												<button class="close-btn open-btn" onclick="window.location.href='#'">Open Now</button>
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
-													<a href="#"><i data-feather="map-pin"></i></a>
-													<a href="#"><i data-feather="upload"></i></a>
-													<a href="#"><i data-feather="heart"></i></a>
+													<a href="#"><i class="fa-solid fa-location-dot"></i></a>
+													<a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+													<a href="#"><i class="fa-regular fa-heart"></i></i></a>
 												</div>
 											</div>
 										</div>
@@ -359,13 +363,13 @@
 									<div class="explore-open-close-part">
 										<div class="class-row-2">
 											<div class="col-sm-5">
-												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+												<button class="close-btn" onclick="window.location.href='#'">Close Now</button>
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
-													<a href="#"><i data-feather="map-pin"></i></a>
-													<a href="#"><i data-feather="upload"></i></a>
-													<a href="#"><i data-feather="heart"></i></a>
+													<a href="#"><i class="fa-solid fa-location-dot"></i></a>
+													<a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+													<a href="#"><i class="fa-regular fa-heart"></i></i></a>
 												</div>
 											</div>
 										</div>
@@ -425,13 +429,13 @@
 									<div class="explore-open-close-part">
 										<div class="class-row-2">
 											<div class="col-sm-5">
-												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+												<button class="close-btn" onclick="window.location.href='#'">Close Now</button>
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
-													<a href="#"><i data-feather="map-pin"></i></a>
-													<a href="#"><i data-feather="upload"></i></a>
-													<a href="#"><i data-feather="heart"></i></a>
+													<a href="#"><i class="fa-solid fa-location-dot"></i></a>
+													<a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+													<a href="#"><i class="fa-regular fa-heart"></i></i></a>
 												</div>
 											</div>
 										</div>
@@ -490,13 +494,13 @@
 									<div class="explore-open-close-part">
 										<div class="class-row-2">
 											<div class="col-sm-5">
-												<button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+												<button class="close-btn open-btn" onclick="window.location.href='#'">Open Now</button>
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
-													<a href="#"><i data-feather="map-pin"></i></a>
-													<a href="#"><i data-feather="upload"></i></a>
-													<a href="#"><i data-feather="heart"></i></a>
+													<a href="#"><i class="fa-solid fa-location-dot"></i></a>
+													<a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+													<a href="#"><i class="fa-regular fa-heart"></i></i></a>
 												</div>
 											</div>
 										</div>
@@ -556,13 +560,13 @@
 									<div class="explore-open-close-part">
 										<div class="class-row-2">
 											<div class="col-sm-5">
-												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+												<button class="close-btn" onclick="window.location.href='#'">Close Now</button>
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
-													<a href="#"><i data-feather="map-pin"></i></a>
-													<a href="#"><i data-feather="upload"></i></a>
-													<a href="#"><i data-feather="heart"></i></a>
+													<a href="#"><i class="fa-solid fa-location-dot"></i></a>
+													<a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+													<a href="#"><i class="fa-regular fa-heart"></i></i></a>
 												</div>
 											</div>
 										</div>
@@ -583,7 +587,7 @@
 			<div class="reviews-content">
 				<div class="testimonial-carousel">
 				    <div class="single-testimonial-box">
-						<div class="testimonial-description">
+						<div class="testimonial-description first-slide">
 							<div class="testimonial-info">
 								<div class="testimonial-img">
 									<img src="./images/clients/c1.png" alt="clients">
@@ -793,7 +797,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="single-ststistics-box">
 							<div class="statistics-content">
-								<div class="counter">90 </div> <span>K+</span>
+								<div class="counter">90<span>K+</span></div> 
 							</div>
 							<h3>listings</h3>
 						</div>
@@ -801,7 +805,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="single-ststistics-box">
 							<div class="statistics-content">
-								<div class="counter">40</div> <span>k+</span>
+								<div class="counter">40<span>K+</span></div> 
 							</div>
 							<h3>listing categories</h3>
 						</div>
@@ -809,7 +813,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="single-ststistics-box">
 							<div class="statistics-content">
-								<div class="counter">65</div> <span>k+</span>
+								<div class="counter">65<span>K+</span></div> 
 							</div>
 							<h3>visitors</h3>
 						</div>
@@ -817,24 +821,74 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="single-ststistics-box">
 							<div class="statistics-content">
-								<div class="counter">50</div> <span>k+</span>
+								<div class="counter">50<span>K+</span></div> 
 							</div>
 							<h3>happy clients</h3>
 						</div>
 					</div>
 				</div>	
 			</div>
+		</section>
 
+		<section id="blog" class="section8 blog" >
+			<div class="container">
+				<div class="section-header">
+					<h2>news and articles</h2>
+					<p>Always upto date with our latest News and Articles </p>
+				</div>
+				<div class="blog-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<img src="images/blog/b1.jpg" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="#">How to find your Desired Place more quickly</a></h2>
+									<h4>Posted <span>by</span> <a href="#">Admin</a> March 2018</h4>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<img src="images/blog/b2.jpg" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="#">How to find your Desired Place more quickly</a></h2>
+									<h4>Posted <span>by</span> <a href="#">Admin</a> March 2018</h4>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<img src="images/blog/b3.jpg" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="#">How to find your Desired Place more quickly</a></h2>
+									<h4>Posted <span>by</span> <a href="#">Admin</a> March 2018</h4>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
 
 	</main>
 
-		<!--/.counter-->	
-		<!-- statistics end -->
-
-		<!--blog start -->
-		<section id="blog" class="blog" >
+		<section id="blog" class=" section8 blog" >
 			<div class="container">
 				<div class="section-header">
 					<h2>news and articles</h2>

@@ -17,7 +17,6 @@ header nav div {
     position: fixed;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5rem;
     top: 0;
     /* z-index: 1000; */
     justify-content: space-between;
@@ -27,23 +26,33 @@ header nav div {
 header nav div .list1 {
     position: relative;
     display: flex;
-    width: 100%;
+    /* gap: 2rem; */
+    width: 50%;
 }
 
 header nav div .list2 {
     position: relative;
-    display: flex;
-    justify-content: space-around;
-    line-height: 20px;
-    width: 100%;
-    margin-left: 50%;
+    display: inline-flex;
+    /* gap: 1rem; */
+    /* justify-content: space-around; */
+    width: 50%;
+    margin-left: 40%;
+    margin-right: 2rem;
     text-transform: capitalize;
 }
-
+header nav div ul li {
+    padding-bottom: 0%;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-left: 2px rgb(246, 246, 246) solid;
+    border-bottom: 2px rgb(246, 246, 246) solid;
+}
 header nav div ul li select {
     font-size: 16px;
-    border: 2px;
+    border: none;
+    outline: none;
     margin: 2px;
+    padding: 20px;
 }
 
 .section1 {
@@ -92,7 +101,7 @@ header nav div ul li select {
     background-size: 100vmax;
     background-repeat: no-repeat;
     width: 100%;
-    height: auto;
+    height: 100vh;
     font-size: x-large;
     color: white;
     text-align: center;
@@ -103,30 +112,92 @@ header nav div ul li select {
     text-transform: uppercase;
     text-align: center;
     color: white;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
-.section2 .maindiv .what {
-    position: relative;
+.section2 .what-location-search {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    top: 50%;
+}
+
+.section2 .what-location-search .what {
+    position: absolute;
     display: flex;
 }
+.section2 .what-location-search .what-box .what .formandinput form input {
+    border: none;
+    outline: none;
+    font-size: large;
+    width: 20rem;
+    text-transform: capitalize;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.section2 .what-location-search .location {
+    display: flex;
+    margin-left: 28rem;
+    padding-left: 40px;
+}
+.section2 .what-location-search .location form input {
+    font-size: large;
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    padding-left: 1rem;
+}
+
+.section2 .what-location-search .search button {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    width: 8rem;
+    height: 5rem;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    padding: 25px;
+    margin-left: 15px;
+}
+.section2 .what-location-search .what, .location{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+
+}
+.what-location-search span {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
 
 .section3 {
     text-transform: capitalize;
 }
 
 .section3 .section3-div {
-    top: 65%;
+    top: 85%;
     position: absolute;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 7rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
-    /* justify-content: space-between; */
-    /* top: 70%; */
+    gap: 5rem;
+    margin-right: 2rem;
+    margin-left: 7rem;
 }
-
+.section3 .section3-div .sec3 i {
+    font-size: xx-large;
+}
 .section3 .section3-div .sec3 {
     background-color: rgb(255, 255, 255);
     padding: 20px;
@@ -205,7 +276,7 @@ header nav div ul li select {
 }
 
 .section4 .section4div .group .cfe {
-    box-shadow: 1px 1px 2px 2px gray;
+    box-shadow: 1px 1px 2px 2px rgb(187, 186, 186);
     width: 100%;
     height: auto;
     margin-right: 10%;
@@ -214,7 +285,9 @@ header nav div ul li select {
     text-transform: capitalize;
     line-height: 30px;
 }
-
+.section4 .section4div .group .cfe i {
+    font-size: 50px;
+}
 /* :hover .section4 .section4div .group .cfe {
     background-color: brown;
 } */
@@ -268,7 +341,7 @@ header nav div ul li select {
 
 
 .section5 {
-    background-color: rgb(232, 232, 232);
+    background-color: rgb(229, 229, 229);
     width: 100%;
     margin-bottom: 5%;
     padding-bottom: 10%;
@@ -294,7 +367,7 @@ header nav div ul li select {
 .section5 .row .col-md-4 {
     width: 90%;
     margin-left: 5%;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 2px 2px 2px 2px rgb(181, 178, 178);
 }
 
 .single-explore-img .single-explore-img-info {
@@ -382,6 +455,25 @@ header nav div ul li select {
     width: 100%;
     /* width: 300px; */
 }
+.section5 .explore-content .row .col-sm-6 .single-explore-item .single-explore-txt .explore-open-close-part .class-row-2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    border-top: 2px rgb(212, 210, 210) solid;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.section5 .explore-content .row .col-sm-6 .single-explore-item .single-explore-txt .explore-open-close-part .class-row-2 .close-btn {
+    color: red;
+    border: none;
+    background: none;
+    font-size: 14px;
+}
+.section5 .explore-content .row .col-sm-6 .single-explore-item .single-explore-txt .explore-open-close-part .class-row-2 .open-btn {
+    color: rgb(0, 164, 0);
+}
+
 
 .section5 .explore-content .row h2 {
     text-transform: capitalize;
@@ -395,7 +487,7 @@ header nav div ul li select {
     border-radius: 5px;
 }
 .section5 .explore-content .row .col-sm-6 .bg-theme-2 .explore-rating-price .explore-rating {
-    background-color: rgb(45, 145, 63);
+    background-color: rgb(0, 164, 0);
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -413,7 +505,7 @@ header nav div ul li select {
     border-radius: 5px;
 }
 .section5 .explore-content .row .col-sm-6 .bg-theme-2 .explore-rating-price .explore-rating {
-    background-color: rgb(45, 145, 63);
+    background-color: rgb(0, 164, 0);
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -460,6 +552,7 @@ header nav div ul li select {
 .section6 {
     width: 100%;
     margin-bottom: 10%;
+    overflow: hidden;
 }
 .section6 .section-header {
     text-align: center;
@@ -469,14 +562,17 @@ header nav div ul li select {
 }
 .section6 .testimonial-carousel {
     position: relative;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform 0.5s ease-in-out;
     gap: 1rem;
     text-align: center;
 }
 .section6 .testimonial-carousel .single-testimonial-box {
-    width: 100%;
+    /* min-width: 100%; */
+    width: 30%;
     box-shadow: 2px 2px 2px 2px gray;
+    transition: opacity 0.5s ease-in-out;
 }
 .section6 .testimonial-carousel .single-testimonial-box .testimonial-person-star {
     color: rgb(227, 204, 0);
@@ -484,6 +580,73 @@ header nav div ul li select {
 
 .section7 {
     width: 100%;
+    height: 50vh;
     background-image: url(./images/counter/counter-banner.jpg);
-    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section7 .container .statistics-counter h3{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.section7 .container .single-ststistics-box .statistics-content {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.section7 .container .statistics-counter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.section8 {
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section8 .section-header h2{
+    text-transform: uppercase;
+}
+.section8 .section-header {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.section8 .container .blog-content .row {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    left: 3%;
+    right: 3%;
+}
+.section8 .container .blog-content .row .single-blog-item {
+    box-shadow: 1px 1px 1px 2px rgb(217, 211, 211);
+}
+.section8 .container .blog-content .row .single-blog-item .single-blog-item-txt {
+    padding: 10px;
+    line-height: 1.6;
+}
+.section8 .container .blog-content .row .single-blog-item .single-blog-item-txt p{
+    word-spacing: 10px;
+}
+.section8 .container .blog-content .row .single-blog-item .single-blog-item-txt h4 a {
+    padding-right: 10px;
+    border-right: 2px rgb(226, 224, 224) solid;
+}
+.col-sm-6:hover .single-blog-item-txt h2 a {
+    color: red;
+}
+.col-sm-6:hover .single-blog-item {
+    box-shadow: 0px 5px 5px 0px gray;
 }
