@@ -1,6 +1,7 @@
 body {
     width: 100vmax;
     height: auto;
+    font-family: sans-serif;
 }
 
 ul {
@@ -208,46 +209,56 @@ header nav div ul li select {
 .resturant-hover:hover .resturant {
     background-color: red;
     color: white;
-    box-shadow: 0px 5px 5px 0px gray;
+    box-shadow: 7px 7px 10px 0px rgb(220, 220, 220);
+    transition: ease-in-out 0.5s;
 }
 .resturant-hover:hover .resturant a {
     color: white;
+    transition: ease-in-out 0.5s;
 }
 
 .destination-hover:hover .destination {
     background-color: red;
     color: white;
-    box-shadow: 0px 5px 5px 0px gray;
+    box-shadow: 7px 7px 10px 0px rgb(220, 220, 220);
+    transition: ease-in-out 0.5s;
 }
 .destination-hover:hover .destination a {
     color: white;
+    transition: ease-in-out 0.5s;
 }
 
 .hotels-hover:hover .hotels {
     background-color: red;
     color: white;
-    box-shadow: 0px 5px 5px 0px gray;
+    box-shadow: 7px 7px 10px 0px rgb(220, 220, 220);
+    transition: ease-in-out 0.5s;
 }
 .hotels-hover:hover .hotels a {
     color: white;
+    transition: ease-in-out 0.5s;
 }
 
 .healthcare-hover:hover .healthcare {
     background-color: red;
     color: white;
-    box-shadow: 0px 5px 5px 0px gray;
+    box-shadow: 7px 7px 10px 0px rgb(220, 220, 220);
+    transition: ease-in-out 0.5s;
 }
 .healthcare-hover:hover .healthcare a {
     color: white;
+    transition: ease-in-out 0.5s;
 }
 
 .automotion-hover:hover .automotion {
     background-color: red;
     color: white;
-    box-shadow: 0px 5px 5px 0px gray;
+    box-shadow: 7px 7px 10px 0px rgb(220, 220, 220);
+    transition: ease-in-out 0.5s;
 }
 .automotion-hover:hover .automotion a {
     color: white;
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -303,40 +314,52 @@ header nav div ul li select {
 .choose-hover:hover .choose {
     background-color: red;
     color: white;
+    box-shadow: 7px 7px 10px 0px rgb(220, 220, 220);
+    transition: ease-in-out 0.5s;
 }
 .choose-hover:hover button {
     background-color: white;
     color: red;
     border: none;
+    transition: ease-in-out 0.5s;
 }
 .choose-hover:hover .choose a {
     color: white;
+    transition: ease-in-out 0.5s;
 }
 
 .find-hover:hover .find {
     background-color: red;
     color: white;
+    box-shadow: 7px 7px 10px 0px rgb(220, 220, 220);
+    transition: ease-in-out 0.5s;
 }
 .find-hover:hover button {
     background-color: white;
     color: red;
     border: none;
+    transition: ease-in-out 0.5s;
 }
 .find-hover:hover .find a {
     color: white;
+    transition: ease-in-out 0.5s;
 }
 
 .explore-hover:hover .explore {
     background-color: red;
     color: white;
+    box-shadow: 7px 7px 10px 0px rgb(220, 220, 220);
+    transition: ease-in-out 0.5s;
 }
 .explore-hover:hover button {
     background-color: white;
     color: red;
     border: none;
+    transition: ease-in-out 0.5s;
 }
 .explore-hover:hover .explore a {
     color: white;
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -382,6 +405,7 @@ header nav div ul li select {
 }
 .col-md-4:hover .explore-img-info1 {
     opacity: 1;
+    transition: ease-in-out 0.5s;
 }
 
 .single-explore-img .explore-img-info2 {
@@ -390,6 +414,7 @@ header nav div ul li select {
 }
 .col-md-4:hover .explore-img-info2 {
     opacity: 1;
+    transition: ease-in-out 0.5s;
 }
 
 .single-explore-img .explore-img-info3 {
@@ -398,6 +423,7 @@ header nav div ul li select {
 }
 .col-md-4:hover .explore-img-info3 {
     opacity: 1;
+    transition: ease-in-out 0.5s;
 }
 
 .single-explore-img .explore-img-info4 {
@@ -406,6 +432,7 @@ header nav div ul li select {
 }
 .col-md-4:hover .explore-img-info4 {
     opacity: 1;
+    transition: ease-in-out 0.5s;
 }
 
 .single-explore-img .explore-img-info5 {
@@ -414,6 +441,7 @@ header nav div ul li select {
 }
 .col-md-4:hover .explore-img-info5 {
     opacity: 1;
+    transition: ease-in-out 0.5s;
 }
 
 .single-explore-img .explore-img-info6 {
@@ -422,6 +450,8 @@ header nav div ul li select {
 }
 .col-md-4:hover .explore-img-info6 {
     opacity: 1;
+    transition: ease-in-out 0.5s;
+    transform-origin: bottom;
 }
 
 .single-explore-img .single-explore-img-info button {
@@ -533,10 +563,6 @@ header nav div ul li select {
     padding-left: 5px;
 }
 
-.section5 .explore-content .row .single-explore-txt {
-    /* width: 100%; */
-}
-
 .section5 .explore-content .row .single-explore-txt .explore-person .row {
     /* width: 100%; */
     display: flex;
@@ -613,6 +639,7 @@ header nav div ul li select {
     width: 100%;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10%;
 }
 .section8 .section-header h2{
     text-transform: uppercase;
@@ -646,7 +673,122 @@ header nav div ul li select {
 }
 .col-sm-6:hover .single-blog-item-txt h2 a {
     color: red;
+    transition: ease-in-out 0.2s;
 }
 .col-sm-6:hover .single-blog-item {
-    box-shadow: 0px 5px 5px 0px gray;
+    box-shadow: 7px 7px 10px 0px rgb(220, 220, 220);
+}
+
+.section9 {
+    background-color: rgb(236, 234, 234);
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: sans-serif;
+    text-align: center;
+}
+.section9 .container .subscribe-title{
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+.section9 .container .subscribe-title h2 {
+    text-transform: uppercase;
+}
+.section9 .container .subscribe-title p {
+    font-size: larger;
+    color: rgb(50, 50, 50);
+    opacity: 0.7;
+}
+.section9 .container .row .subscription-input-group form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section9 .container .row .subscription-input-group .subscription-input-form {
+    font-size: large;
+    width: 30rem;
+    height: 3.2rem;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 2px 1px 1px 1px rgb(215, 215, 215);
+}
+
+.section9 .container .row .subscription-input-group .appsLand-btn {
+    background-color: rgb(243, 71, 71);
+    color: white;
+    font-size: 16px;
+    width: 10rem;
+    height: 3.4rem;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+}
+.section9 .container .row:hover .subscription-input-form {
+    box-shadow: 10px 10px 10px 6px rgb(215, 215, 215);
+    transition: ease-in-out 0.5s;
+}
+
+.section9 .container .row:hover .appsLand-btn {
+    background-color: red;
+    box-shadow: 10px 10px 10px 5px rgb(202, 202, 202);
+    transition: ease-in-out 0.5s;
+}
+
+
+footer {
+    width: 100%;
+    margin-top: 5%;
+
+}
+.footer .container .footer-menu .row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgb(216, 215, 215);
+}
+.footer .container .footer-menu .row .col-sm-9 ul {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+}
+.footer .container .footer-menu .row .navbar-header {
+    font-size: xx-large;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+.footer .container .footer-menu .row .navbar-header span {
+    color: rgb(255, 31, 31);
+}
+
+.footer .container .hm-footer-copyright .row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+
+.footer .container .hm-footer-copyright .row .footer-social {
+    /* position: absolute; */
+    display: flex;
+    gap: 2rem;
+}
+.footer .container .hm-footer-copyright .row .footer-social a {
+    font-size: large;
+    background-color: rgb(197, 197, 197);
+    padding: 10px;
+    border-radius: 50%;
 }
