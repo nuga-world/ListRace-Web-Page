@@ -17,45 +17,54 @@ header nav div {
     width: 100%;
     position: fixed;
     display: flex;
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr); */
     top: 0;
+    margin-top: 0;
     /* z-index: 1000; */
     justify-content: space-between;
     transition: top 0.5s;
+    opacity: 0.5;
 }
-
+/* header nav .nav{
+    border-bottom: rgb(121, 11, 11) solid;
+} */
 header nav div .list1 {
     position: relative;
     display: flex;
     /* gap: 2rem; */
-    width: 50%;
+    /* width: 50%; */
 }
 
 header nav div .list2 {
     position: relative;
-    display: inline-flex;
-    /* gap: 1rem; */
+    display: flex;
+    gap: 1rem;
     /* justify-content: space-around; */
-    width: 50%;
+    width: 100%;
     margin-left: 40%;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
     text-transform: capitalize;
 }
 header nav div ul li {
-    padding-bottom: 0%;
+    /* padding-bottom: 0%; */
     padding-left: 20px;
     padding-right: 10px;
     border-left: 2px rgb(246, 246, 246) solid;
-    border-bottom: 2px rgb(246, 246, 246) solid;
+    /* border-bottom: 2px rgb(246, 246, 246) solid; */
 }
 header nav div ul li select {
-    font-size: 16px;
+    font-size: 20px;
+    column-gap: 2rem;
     border: none;
     outline: none;
     margin: 2px;
-    padding: 20px;
+    margin-top: 0;
+    border-style: solid;
 }
-
+header nav div ul li .lnr-magnifier {
+    color: black;
+    font-size: large;
+}
 .section1 {
     width: 100%;
     height: auto;
@@ -66,7 +75,7 @@ header nav div ul li select {
     left: 0;
     z-index: 1;
     backdrop-filter: blur(20px);
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .section1 .listrace {
     width: 100%;
