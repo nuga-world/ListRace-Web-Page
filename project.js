@@ -37,22 +37,24 @@ const nextSlide = () => {
 
 // document.querySelector('.next').addEventListener('click', nextSlide);
 
-// setInterval(() => { //THIS ALSO WORKS TO SET INTERVAL
-//     nextSlide()
-// }, 4000);
+setInterval(() => { //THIS ALSO WORKS TO SET INTERVAL
+    nextSlide()
+}, 2000);
 
-// const prevSlide =() => {
-//     // slideIndex = (slideIndex - 1) % totalSlides;
-//                     //OR
-//     slideIndex = (slideIndex - 1 + totalSlides) % totalSlides;
-//     showSlide(slideIndex)
-// };
+
+
+const prevSlide =() => {
+    slideIndex = (slideIndex - 1) % totalSlides;
+                    //OR
+    // slideIndex = (slideIndex - 1 + totalSlides) % totalSlides;
+    showSlide(slideIndex)
+};
 
 // document.querySelector('.prev').addEventListener('click', prevSlide);
 
 // setInterval(nextSlide, 2000);
 
-                //OR
-// setInterval(() => { //THIS ALSO WORKS TO SET INTERVAL
-//     prevSlide()
-// }, 3000);
+                OR
+setInterval(() => { //THIS ALSO WORKS TO SET INTERVAL
+    prevSlide()
+}, 1000);

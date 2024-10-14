@@ -598,16 +598,19 @@ header nav div ul li .lnr-magnifier {
 .section6 .testimonial-carousel {
     position: relative;
     display: flex;
-    flex-wrap: wrap;
-    transition: transform 0.5s ease-in-out;
+    /* flex-wrap: wrap; */
+    /* transition: transform 0.5s ease-in-out; */
     gap: 1rem;
     text-align: center;
 }
 .section6 .testimonial-carousel .single-testimonial-box {
-    /* min-width: 100%; */
+    min-width: 30%;
     width: 30%;
     box-shadow: 2px 2px 2px 2px gray;
-    transition: opacity 0.5s ease-in-out;
+    transition: ease-in-out 0.2s;
+    transition-property: all;
+    padding: 10px;
+    margin-bottom: 5px;
 }
 .section6 .testimonial-carousel .single-testimonial-box .testimonial-person-star {
     color: rgb(227, 204, 0);
