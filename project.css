@@ -622,6 +622,8 @@ header nav div ul li .lnr-magnifier {
     background-image: url(./images/counter/counter-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .section7 .container .statistics-counter h3{
     text-transform: capitalize;
